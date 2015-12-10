@@ -1,12 +1,43 @@
 <div class="container">
-  <div class="jumbotron">
-    <h1 class="display-2">About - Coming soon!</h1>
-    <p class="lead">
-      Yep, we're working on it. Meanwhile, you can talk and code with me:
-    </p>
-    <p class="lead">
-      <a href="https://www.twitter.com/lightmeankit" class="btn btn-lg btn-info" target="_blank">Twitter</a>
-      <a href="https://www.github.com/lightmean" class="btn btn-lg btn-secondary" target="_blank">Github</a>
-    </p>
-  </div>
+  <h1><a id="lightmean_0"></a>lightmean</h1>
+  <p>A very light starter kit for MEAN stack apps.</p>
+  <p>This is especially good for people who are just sarting out learning the MEAN stack, because it doesn’t provide any extra, confusing functionality that doesn’t make sense to beginners.</p>
+  <p>Also, if you are a seasoned developer who really wants to start from ‘scratch’, hopefully this will make you feel good about yourself.</p>
+  <h3><a id="Future_BranchesFeatures_7"></a>Future Branches/Features</h3>
+  <p>In the future, feel free to build on this template, and create new, more advanced templates in seperate branches or even repos!
+  Examples:</p>
+  <ul>
+  <li>User auth starter kit</li>
+  <li>Geolocation (Google Maps?) starter kit</li>
+  <li>Social media auth starter kit</li>
+  <li>Hybrid app starter kit (Ionic?)</li>
+  <li>Simple app clones (Twitter, Slack, etc)</li>
+  </ul>
+  <h3><a id="Annotated_file_tree_16"></a>Annotated file tree:</h3>
+  <pre><code>.
+  ├── app                            <span class="hljs-comment">// Server side code</span>
+  │   ├── models                     <span class="hljs-comment">// Any mongoose models/schemas to validate your data</span>
+  │   │   └── thing<span class="hljs-class">.js</span>               <span class="hljs-comment">// Sample mongoose model</span>
+  │   └── routes<span class="hljs-class">.js</span>                  <span class="hljs-comment">// Config for the Express API routes, serves index.html</span>
+  ├── bower<span class="hljs-class">.json</span>                     <span class="hljs-comment">// List of client side deps, piped to 'public/lib'</span>
+  ├── config                         <span class="hljs-comment">// Your config files, normally more </span>
+  │   └── db<span class="hljs-class">.js</span>                      <span class="hljs-comment">// Sample config file w/ mongodb path</span>
+  ├── data                           <span class="hljs-comment">// Only if your run 'mongod --dbpath=./data</span>
+  ├── package<span class="hljs-class">.json</span>                   <span class="hljs-comment">// NPM server side deps list</span>
+  ├── public                         <span class="hljs-comment">// Served to the client </span>
+  │   ├── js                         <span class="hljs-comment">// Angular SPA logic   </span>
+  │   │   ├── app<span class="hljs-class">.js</span>                 <span class="hljs-comment">// Strings  together all the other files</span>
+  │   │   ├── appRoutes<span class="hljs-class">.js</span>           <span class="hljs-comment">// Configs routes, no-refresh SPA</span>
+  │   │   ├── controllers            <span class="hljs-comment">// Angular controllers  </span>
+  │   │   │   ├── AboutCtrl<span class="hljs-class">.js</span>       <span class="hljs-comment">// A sample 'about' page controller</span>
+  │   │   │   └── MainCtrl<span class="hljs-class">.js</span>        <span class="hljs-comment">// Controller for your main page</span>
+  │   │   └── services               <span class="hljs-comment">// Angular services, API wrappers etc</span>
+  │   │       └── UsefulService<span class="hljs-class">.js</span>   <span class="hljs-comment">// Uses http to connect to endpoint from 'app/routes.js'</span>
+  │   ├── libs                       <span class="hljs-comment">// All bower client side deps piped here</span>
+  │   └── views                      <span class="hljs-comment">// Angular SPA views</span>
+  │       ├── about<span class="hljs-class">.html</span>             <span class="hljs-comment">// Sample about page</span>
+  │       ├── home<span class="hljs-class">.html</span>              <span class="hljs-comment">// Home page served at '/'</span>
+  │       └── index<span class="hljs-class">.html</span>             <span class="hljs-comment">// Home base, served directly by Express</span>
+  └── server<span class="hljs-class">.js</span>                      <span class="hljs-comment">// Starts and configures the Express server</span>
+  </code></pre>
 </div>
