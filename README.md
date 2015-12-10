@@ -1,7 +1,20 @@
 # lightmean
 A very light starter kit for MEAN stack apps.
 
-### Structure:
+This is especially good for people who are just sarting out learning the MEAN stack, because it doesn't provide any extra, confusing functionality that doesn't make sense to beginners.
+
+Also, if you are a seasoned developer who really wants to start from 'scratch', hopefully this will make you feel good about yourself.
+
+### Future Branches/Features
+In the future, feel free to build on this template, and create new, more advanced templates in seperate branches or even repos!
+Examples: 
+- User auth starter kit
+- Geolocation (Google Maps?) starter kit
+- Social media auth starter kit
+- Hybrid app starter kit (Ionic?)
+- Simple app clones (Twitter, Slack, etc)
+
+### Annotated file tree:
 ```
 .
 ├── app                            // Server side code
