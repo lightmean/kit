@@ -1,5 +1,6 @@
 # lightmean
-A very light starter kit for MEAN stack apps.
+A very light starter kit for [MEAN](http://meanjs.org) stack apps.
+MEAN = [MogoDB](http://mongodb.org/), [Express](http://expressjs.com/), [Angular](http://angularjs.org/), and [Node](http://nodejs.org/).
 
 This is especially good for people who are just sarting out learning the MEAN stack, because it doesn't provide any extra, confusing functionality that doesn't make sense to beginners.
 
