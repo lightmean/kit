@@ -1,6 +1,6 @@
 # lightmean
 
-*Oops, haven't been here in a while. Well Angular 2 is out so what's the point. This project won't be worked on anymore, ad the dependencies are out of date. The concepts are still there though, so feel free to use it as a learning resource!*
+*Oops, haven't been here in a while. Well Angular 2 is out so what's the point. This project won't be worked on anymore, and the dependencies are out of date. The concepts are still there though, so feel free to use it as a learning resource!*
 
 A very light starter kit for [MEAN](http://meanjs.org) stack apps.
 MEAN = [MogoDB](http://mongodb.org/), [Express](http://expressjs.com/), [Angular](http://angularjs.org/), and [Node](http://nodejs.org/).
